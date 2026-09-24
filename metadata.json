@@ -1,0 +1,6 @@
+{
+  "name": "VAYU-INDEX: National Airfare Intelligence Platform",
+  "description": "Real-time domestic airfare price index, DGCA-weighted Laspeyres CPI augmentation, route elasticity, anomaly detection, and AI forecasting for MoSPI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
