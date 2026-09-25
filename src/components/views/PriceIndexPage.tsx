@@ -202,7 +202,7 @@ export const PriceIndexPage: React.FC<PriceIndexPageProps> = ({ onNavigate, onOp
                   <XAxis dataKey="label" tick={{ fontSize: 10, fill: '#64748b' }} axisLine={false} tickLine={false} />
                   <YAxis domain={[95, 130]} tick={{ fontSize: 10, fill: '#64748b' }} axisLine={false} tickLine={false} />
                   <Tooltip
-                    contentStyle={{ backgroundColor: '#0b192e', borderColor: '#1e293b', borderRadius: '6px', color: '#fff', fontSize: '11px' }}
+                    contentStyle={{ backgroundColor: '#e5e5e6', borderColor: '#1e293b', borderRadius: '6px', color: '#0b49b4', fontSize: '12px' }}
                     formatter={(value: any) => [`${value}`, 'Airfare Price Index']}
                   />
                   <ReferenceLine
@@ -226,7 +226,7 @@ export const PriceIndexPage: React.FC<PriceIndexPageProps> = ({ onNavigate, onOp
                   <XAxis dataKey="date" tick={{ fontSize: 10, fill: '#64748b' }} axisLine={false} tickLine={false} />
                   <YAxis domain={[120, 126]} tick={{ fontSize: 10, fill: '#64748b' }} axisLine={false} tickLine={false} />
                   <Tooltip
-                    contentStyle={{ backgroundColor: '#0b192e', borderColor: '#1e293b', borderRadius: '6px', color: '#fff', fontSize: '11px' }}
+                    contentStyle={{ backgroundColor: '#ffffff', borderColor: '#1e293b', borderRadius: '6px', color: '#5e0572', fontSize: '11px' }}
                   />
                   <Line
                     type="monotone"
