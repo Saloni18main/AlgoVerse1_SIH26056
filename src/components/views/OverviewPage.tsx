@@ -23,7 +23,7 @@ interface OverviewPageProps {
   onNavigate: (page: PageId) => void;
   onOpenExport: () => void;
 }
-
+2025
 export const OverviewPage: React.FC<OverviewPageProps> = ({ onNavigate, onOpenExport }) => {
   const [dateRange, setDateRange] = useState('Last 30 Days');
   const [selectedCity, setSelectedCity] = useState('All Cities');
@@ -121,7 +121,7 @@ export const OverviewPage: React.FC<OverviewPageProps> = ({ onNavigate, onOpenEx
           </button>
         </div>
       </div>
-
+2024
       {/* Featured Anomaly Alert Banner matching Stitch Screenshot */}
       <AlertBanner
         id="overview-anomaly-alert"
