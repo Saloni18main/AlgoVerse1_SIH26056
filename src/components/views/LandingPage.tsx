@@ -92,7 +92,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 124.7
               </span>
               <span className="text-xs font-semibold text-slate-500 font-mono">
-                pts (Base 2024=100)
+                pts (Base 2024 = 100)
               </span>
             </div>
 
@@ -103,7 +103,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 <span>+2.4% (+2.9 pts)</span>
               </div>
               <span className="text-slate-500 font-medium">
-                vs Last Month (Aug 2025)
+                vs Last Month (January 2025)
               </span>
             </div>
           </div>
