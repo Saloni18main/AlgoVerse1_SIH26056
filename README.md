@@ -2,7 +2,7 @@
 
 > A real-time, web-scraped Airfare Price Index built to augment India's Consumer Price Index (CPI), developed for **Smart India Hackathon 2026 — Problem Statement SIH26056**.
 
-**Team:** AlgoVerse1_SIH26056 <br>
+**Team:** AlgoVerse1 <br>
 **Problem Statement ID:** SIH26056<br>
 **Ministry:** Ministry of Statistics and Programme Implementation (MoSPI)<br>
 **Category:** Smart Automation
