@@ -147,7 +147,6 @@ export const AnomalyDetectionPage: React.FC<AnomalyDetectionPageProps> = ({
         <div className="flex flex-wrap items-center justify-between pb-3 border-b border-slate-100 gap-2">
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-800 font-mono">
-              ANOMALY FREQUENCY OVER TIME
             </h3>
             <span className="text-[11px] text-slate-400">Temporal cluster distribution across domestic network</span>
           </div>
@@ -185,7 +184,7 @@ export const AnomalyDetectionPage: React.FC<AnomalyDetectionPageProps> = ({
               <XAxis dataKey="time" tick={{ fontSize: 10, fill: '#64748b' }} axisLine={false} tickLine={false} />
               <YAxis tick={{ fontSize: 10, fill: '#64748b' }} axisLine={false} tickLine={false} />
               <Tooltip
-                contentStyle={{ backgroundColor: '#0b192e', borderColor: '#1e293b', borderRadius: '6px', color: '#fff', fontSize: '11px' }}
+                contentStyle={{ backgroundColor: '#ffffff', borderColor: '#080808', borderRadius: '6px', color: '#000000', fontSize: '11px' }}
                 formatter={(value: any) => [`${value} anomalies`, 'Volume']}
               />
               <Area type="monotone" dataKey="count" stroke="#00256C" strokeWidth={2} fill="#93c5fd" fillOpacity={0.25} />
